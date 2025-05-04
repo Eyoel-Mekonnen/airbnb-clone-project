@@ -97,6 +97,19 @@ OAuth2: Authorization protocol to securely manage user permissions and third-par
 HTTPS: Encrypted transport layer to secure all HTTP traffic between client and server.
 
 
+Feature Breakdown
+
+User Management: Enables account registration, authentication, and profile management. Users can sign up, log in, and manage their personal settings, ensuring secure access control throughout the application.
+
+Property Management: Allows property owners to create, update, and delete listings. Owners can specify details like title, description, pricing, and availability, ensuring accurate and appealing listings for potential guests.
+
+Booking System: Facilitates seamless reservation of properties. Users select dates, review availability, and confirm bookings, while the system handles status updates and calendar management to avoid conflicts.
+
+Review & Rating System: Collects feedback from users after each stay. Guests can submit ratings and comments, which are displayed to inform future travelers and maintain quality standards across listings.
+
+Payment Processing: Integrates secure payment gateways to handle transactions. The system processes payments upon booking, tracks payment status, and issues receipts, ensuring reliable and transparent financial flows.
+
+
 🤝 Contributing
 
 Fork repo, create feature branch, open a PR
