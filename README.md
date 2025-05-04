@@ -122,6 +122,21 @@ HTTPS Enforcement: Encrypts all data in transit, safeguarding sensitive informat
 Input Validation & Sanitization: Validates and cleans user inputs to prevent injection attacks (SQLi, XSS), protecting database integrity and user security.
 
 
+CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment (CD) pipelines automate the build, test, and deployment workflow, catching integration errors early and ensuring consistent, fast releases. They streamline collaboration and reduce manual intervention, maintaining reliable delivery across environments.
+
+Tools:
+
+GitHub Actions: Automate workflows—build, test, and deploy on code pushes or pull requests.
+
+Docker: Containerize services for uniform environments from development to production.
+
+Docker Compose: Define and run multi-container setups locally for testing.
+
+GitHub Packages / Docker Hub: Store and version Docker images for deployment.
+
+
 🤝 Contributing
 
 Fork repo, create feature branch, open a PR
