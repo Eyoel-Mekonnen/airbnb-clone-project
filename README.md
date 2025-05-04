@@ -109,6 +109,18 @@ Review & Rating System: Collects feedback from users after each stay. Guests can
 
 Payment Processing: Integrates secure payment gateways to handle transactions. The system processes payments upon booking, tracks payment status, and issues receipts, ensuring reliable and transparent financial flows.
 
+API Security
+
+Authentication: Verifies user identity (e.g., JWT, OAuth2) to ensure only legitimate users can access endpoints. Crucial for protecting user accounts and personal data.
+
+Authorization: Implements role-based access control to restrict actions (e.g., only hosts can manage listings). Prevents unauthorized data access or modifications.
+
+Rate Limiting: Limits request frequency per IP or user to mitigate abuse and DDoS attacks. Ensures application availability and protects backend resources.
+
+HTTPS Enforcement: Encrypts all data in transit, safeguarding sensitive information like credentials and payment details.
+
+Input Validation & Sanitization: Validates and cleans user inputs to prevent injection attacks (SQLi, XSS), protecting database integrity and user security.
+
 
 🤝 Contributing
 
