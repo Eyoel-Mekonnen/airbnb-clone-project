@@ -34,6 +34,40 @@ Git & GitHub account
 
 MySQL server
 
+Database Design
+
+Users:
+
+Fields: id, name, email, password, created_at
+
+Relations: A user can list multiple properties and make multiple bookings.
+
+Properties:
+
+Fields: id, owner_id (FK → Users), title, description, price_per_night, created_at
+
+Relations: A property belongs to one user (owner) and can have multiple bookings and reviews.
+
+Bookings:
+
+Fields: id, user_id (FK → Users), property_id (FK → Properties), start_date, end_date, status
+
+Relations: A booking belongs to one user and one property and may have one associated payment.
+
+Reviews:
+
+Fields: id, user_id (FK → Users), property_id (FK → Properties), rating, comment, created_at
+
+Relations: A review is written by a user for a specific property.
+
+Payments:
+
+Fields: id, booking_id (FK → Bookings), amount, payment_date, payment_method
+
+Relations: A payment is linked to one booking.
+
+
+
 🚀 Setup & Run
 
 git clone <repo-url> && cd airbnb-clone
