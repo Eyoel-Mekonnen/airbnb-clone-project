@@ -44,6 +44,25 @@ docker-compose up --build
 
 python manage.py migrate && python manage.py runserver
 
+Technology Stack
+
+Django: Python web framework used to build the backend RESTful APIs and application logic.
+
+Graphene (GraphQL): Library for creating and serving GraphQL schemas and queries for flexible data retrieval.
+
+MySQL: Relational database management system for storing user data, bookings, and listings.
+
+Docker: Containerization platform to package the application and its dependencies for consistent development and production environments.
+
+GitHub Actions: CI/CD tool to automate testing, linting, and deployment workflows on every push or pull request.
+
+JWT (JSON Web Tokens): Token-based authentication mechanism for stateless user sessions.
+
+OAuth2: Authorization protocol to securely manage user permissions and third-party access.
+
+HTTPS: Encrypted transport layer to secure all HTTP traffic between client and server.
+
+
 🤝 Contributing
 
 Fork repo, create feature branch, open a PR
